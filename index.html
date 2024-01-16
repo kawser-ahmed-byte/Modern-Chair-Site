@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Chair</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" href="img/chair-solid.svg" type="image/svg" />
+  </head>
+  <body>
+    <div id="wrapper">
+
+        <div class="container">
+            <div class="info-Wrap mob-margin">
+            <p class="title-up">Modern Chair</p>
+            <h2>Chaise Lounge</h2>
+            <h4>$555 <span>$999</span></h4>
+
+            <div class="section-fluid">
+                <input
+                type="radio"
+                class="desc-button"
+                id="desc-1"
+                name="desc-button"
+                checked
+                />
+                <label for="desc-1">Description</label>
+                <input
+                type="radio"
+                class="desc-button"
+                id="desc-2"
+                name="desc-button"
+                />
+                <label for="desc-2">Details</label>
+
+                <div class="section-fluid desc-sec accor-1">
+                <p>
+                    A long, low chair designed for lounging, with a back support at
+                    one end. Often associated with luxury and relaxation.
+                </p>
+                </div>
+
+                <div class="section-fluid desc-sec accor-2">
+                <div class="section-inline">
+                    <p><span>80</span>cm <br>Length</p>
+                </div>
+                <div class="section-inline">
+                    <p><span>65</span>cm <br>width</p>
+                </div>
+                <div class="section-inline">
+                    <p><span>90</span>cm <br>Height</p>
+                </div>
+                <div class="section-inline">
+                    <p><span>17.6</span>lbs <br>Weight</p>
+                </div>
+                </div>
+            </div>
+
+                <h5>Choose Color:</h5>
+
+            </div>
+
+            <input class="color-button for-color-1" type="radio" id="color-1" name="color-button" checked>
+            <label class="first-color" for="color-1"></label>
+            <input class="color-button for-color-2" type="radio" id="color-2" name="color-button" >
+            <label class="color-2" for="color-2"></label>
+            <input class="color-button for-color-3" type="radio" id="color-3" name="color-button" >
+            <label class="color-3" for="color-3"></label>
+            <input class="color-button for-color-4" type="radio" id="color-4" name="color-button" >
+            <label class="color-4" for="color-4"></label>
+            <input class="color-button for-color-5" type="radio" id="color-5" name="color-button" >
+            <label class="color-1" for="color-5"></label>
+            <input class="color-button for-color-6" type="radio" id="color-6" name="color-button" >
+            <label class="color-6" for="color-6"></label>
+
+            <div class="info-Wrap">
+              <a href="#" class="btn"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</a>
+            </div>
+
+            <div class="img-wrap chair-1"></div>
+            <div class="img-wrap chair-2"></div>
+            <div class="img-wrap chair-3"></div>
+            <div class="img-wrap chair-4"></div>
+            <div class="img-wrap chair-5"></div>
+            <div class="img-wrap chair-6"></div>
+
+            <div class="black-color"></div>
+
+            <div class="black-color chair-2"></div>
+            <div class="black-color chair-3"></div>
+            <div class="black-color chair-4"></div>
+            <div class="black-color chair-5"></div>
+            <div class="black-color chair-6"></div>
+
+        </div>
+
+    </div>
+
+    <!-- <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const radioButtons = document.querySelectorAll('.color-button');
+        const blackColors = document.querySelectorAll('.black-color');
+    
+        radioButtons.forEach((radioButton, index) => {
+          radioButton.addEventListener('change', function () {
+            blackColors.forEach((blackColor) => {
+              blackColor.style.opacity = '0';
+            });
+    
+            if (radioButton.checked) {
+              blackColors[index].style.opacity = '1';
+            }
+          });
+        });
+      });
+    </script> -->
+    
+    
+    
+
+  </body>
+</html>
